@@ -1,0 +1,73 @@
+h1 {
+    margin: 40px;
+    padding: 40px;
+    font-size: 45px;
+    color: white;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+body {
+    margin: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt45d6c2043ff36e28/5e21837f146ca8115b2d3332/Champion-List.jpg");
+}
+
+h2 {
+    margin: auto;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    color: white;
+    word-break: normal;
+}
+div{
+    margin-top: 1rem;
+    margin-left: 25rem;
+}
+img{
+    align-items: center;
+    margin-left: 4rem;
+    border-radius: 50%;
+}
+
+* {
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:15px;
+}
+
+ul {
+        margin: 0;
+        padding:0;
+    }
+    
+    li {
+        list-style: none; 
+        margin: 10px;
+        display: inline;
+    }
+
+    li a {
+            padding: 5px 10px; 
+            margin:0;
+            border: 0px solid #f00; 
+            background: #903;
+            text-decoration: none;
+            color:#FFF;
+            /* cantos arredondados */
+            -webkit-border-radius:5px;
+            -moz-border-radius:5px;
+            border-radius:5px;
+        }
+        li a:hover {
+            background: #CCC;
+            color: #000; 
+            border-color: #000;
+        }
+        footer {
+            color: white;
+        }
